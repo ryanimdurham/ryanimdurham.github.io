@@ -1,0 +1,103 @@
+<!-- Ryani Durham -->
+ <!-- Lab 10 -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Donate</title>
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="https://kit.fontawesome.com/34c8e366ae.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <!-- Sidebar is new for Lab 10 -->
+    <button class="sidebar-toggle">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+    <div class="sidebar-header">
+        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <ul class="links">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+        <li>
+            <a href="donate.html" class="active">Donate</a>
+        </li>
+        <li>
+            <a href="resume.html">Resume</a>
+        </li>
+        <li>
+            <a href="sims.html">The Sims 4</a>
+        </li>
+        <li>
+            <a href="tracklist.html">Tracklist</a>
+        </li>
+    </ul>
+    </aside>
+    <script src="app.js"></script>
+      <!-- Sidebar ends here -->
+    <header>
+        <h1 class="center-h1">Donate</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Send me money here:</h2>
+        <form class="w3-container">
+            <label for="fname" class="w3-text">First Name:</label>
+            <input type="text" id="fname" class="w3-input">
+            <br>
+            <label for="lname" class="w3-text">Last Name:</label>
+            <input type="text" id="lname" class="w3-input">
+            <br>
+            <label for="email" class="w3-text">Email:</label>
+            <input type="text" id="email" class="w3-input">
+            <br>
+            <label for="phone" class="w3-text">Phone Number:</label>
+            <input type="text" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="w3-input">
+            <br>
+            <label for="phonetype">Select One:</label>
+            <select id="phonetype" class="w3-select">
+                <option>Mobile</option>
+                <option>Work</option>
+            </select>
+            <br>
+            <label for="amount" class="w3-text">Amount:</label>
+            <input type="number" id="amount" min="0" class="w3-input">
+            <br>
+            <label for="card-num" class="w3-text">Credit Card Number:</label>
+            <input type="text" id="card-num" minlength="15" maxlength="16" class="w3-input">
+            <br>
+            <label for="cvv" class="w3-text">Security Code:</label>
+            <input type="text" id="cvv" maxlength="3" size="3" class="w3-input">
+            <br>
+            <label for="expDate">Expiration Date:</label>
+            <input type="date" id="expDate" class="w3-input">
+            <br>
+            <button type="submit" class="w3-btn w3-2018-ultra-violet">Sumbit</button>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Ryani Durham<br>
+            Contact:<br>
+            4356 Wisteria Ln<br>
+            404-777-9311<br>
+            ryani.durham@mga.edu<br>
+            &copy; 2024
+        </p>
+        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i>Instagram</a>
+        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i>Facebook</a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i>Twitter</a>
+    </footer> 
+ </body>
+ </html>

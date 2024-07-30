@@ -1,0 +1,105 @@
+<!-- Ryani Durham -->
+<!-- Lab 10 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sims 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Oswald:wght@200..700&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/sims.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-sm bg-light fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="./images/plumbob.png" alt="Plumbob">
+                </a>
+                <h1 class="navbar-text text-body heading">The Sims 4</h1>
+            </div>
+            <ul class="nav nav-pills justify-content-end">
+                <li class="nav-item">
+                    <a href="sims.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Worlds</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Expansion Packs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Updates</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Portfolio</a></li>
+                    </ul>
+                  </li>
+            </ul>
+          </nav>   
+    </div>  
+    <section>
+        <h2 class="heading">Unleash Your Imagination</h2>
+        <div class="row">
+            <div class="col bg-light">
+                <h2 class="heading">Create Unique Sims</h2>
+                <p>A variety of Sims are yours to personalize, each with distinct appearances, dynamic personalities, and inspiring aspirations. Create yourself, your favorite celebrities, your fantasy, or your friends!</p>
+            </div>
+            <div class="col bg-light">
+                <h2 class="heading">Build the Perfect Home</h2>
+                <p>Effortlessly build and design ideal homes for your Sims using Build Mode. Construct the home of your – and their – dreams by planning its layout, choosing furnishings, and altering the landscape and terrain.</p>
+            </div>
+            <div class="col bg-light">
+                <h2 class="heading">Explore Vibrant Worlds</h2>
+                <p>Travel between locations, discover amazing and distinctive neighborhoods, and encounter captivating venues. Your Sims can visit new communities, hang out with friends, or throw unforgettable parties.</p>
+            </div>
+          </div>
+    </section>
+    <section id="slideshow">
+        <!-- Carousel is new styling element-->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/the-sims-characters.png" alt="The Sims Characters" class="d-block w-100 slide-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-sims-parenthood.png" alt="Three Sims" class="d-block w-100 slide-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-sims-youngsters.png" alt="Sims from City Living" class="d-block w-100 slide-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-sims-party.png" alt="Party Sims" class="d-block w-100 slide-img">
+                </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    
+</body>
+</html>
