@@ -1,15 +1,25 @@
+/* GLOBAL STYLES */
+body {
+    background-color: #DCD2F1;
+}
+
 .nav .nav-item .nav-link {
     color: black;
 }
 
 .nav .nav-item .nav-link:hover {
-    color: blue;
+    color: #754EC6;
+}
+
+.btn {
+    background-color: #754EC6;
+    color: white;
 }
 
 footer {
     text-align: center;
 }
 
-footer span {
-    margin: 20px;
+footer a {
+    color: black;
 }
