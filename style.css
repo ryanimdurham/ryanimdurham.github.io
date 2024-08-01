@@ -1,0 +1,15 @@
+.nav .nav-item .nav-link {
+    color: black;
+}
+
+.nav .nav-item .nav-link:hover {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+}
+
+footer span {
+    margin: 20px;
+}
