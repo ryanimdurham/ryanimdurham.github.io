@@ -15,13 +15,9 @@ body {
     color: black;
 }
 
-/* .nav .nav-item .nav-link {
-    color: black;
+.container {
+    margin-top: 50px;
 }
-
-.nav .nav-item .nav-link:hover {
-    color: #754EC6;
-} */
 
 .btn {
     background-color: #754EC6;
@@ -35,6 +31,7 @@ body {
 
 footer {
     text-align: center;
+    margin-top: 50px;
 }
 
 footer a {
